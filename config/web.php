@@ -50,6 +50,26 @@ $config = [
             ],
         ],
         
+        'assetManager'=>[
+            'bundles'=>[
+                'yii\web\jqueryAsset'=> [
+                    'sourcePath' => null,
+                    'basePath' => '@webroot',
+                    'baseUrl' => '@web',
+                    'js'=>[
+                        'templates115/js/jquery.min.js',
+                    ]
+                ],
+                'yii\bootstrap5\BootstrapAsset'=>[
+                    'sourcePath' => null ,
+                    'basePath' => '@webroot',
+                    'baseUrl' => '@web',
+                    'css'=>[
+                        'templates115/css/bootstrap.min.css'
+                    ],
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
