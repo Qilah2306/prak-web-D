@@ -20,23 +20,23 @@ class AppAsset115 extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'templates115/css/core.css',
-        'templates115/css/components.css',
-        'templates115/css/icons.css',
-        'templates115/css/pages.css',
-        'templates115/css/responsive.css',
+        'template/css/all.min.css',
+        'template/font/boostrap-icons.css',
+        'template/css/owl.carousel.min.css',
+        'template/css/lightbox.min.css',
+        'template/css/boostrap.min.css',
+        'template/css/style.css',
     ];
     public $js = [
-        'templates115/js/modernizr.min.js',
-        'templates115/js/bootstrap.min.js',
-        'templates115/js/detect.js',
-        'templates115/js/fastclick.js',
-        'templates115/js/jquery.slimscroll.js',
-        'templates115/js/jquery.blockUI.js',
-        'templates115/js/waves.js',
-        'templates115/js/wow.min.js',
-        'templates115/js/jquery.nicescroll.js',
-        'templates115/js/jquery.scrollTo.min.js',
+        'template/js/boostrap.bundle.min.js',
+        'template/wow/wow.min.js',
+        'template/easing/easing.min.js',
+        'template/waypoints/waypoints.js',
+        'template/owlcarousel/owl.carousel.min.js',
+        'template/isotope/isotope.pkgd.min.js',
+        'template/js/lightbox.js',
+        'template/js/main.js',
+       
     ];
 
     public $depends = [
